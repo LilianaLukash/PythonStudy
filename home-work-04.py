@@ -1,5 +1,5 @@
 inp1 = input("введіть ціле число або слово ")
-try:
+if inp1.isdigit():
     inp2 = int(inp1)
     print(inp2)
     print("число")
@@ -7,5 +7,5 @@ try:
         print("парне")
     else:
         print("непарне")
-except:
+else:
     print(f"слово довжиною {len(inp1)} знаків")
