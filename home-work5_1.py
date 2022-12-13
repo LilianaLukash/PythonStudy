@@ -3,11 +3,10 @@ while True:
     for sm in in1:
         if sm.isdigit():
             a = int(sm)%2
-            match a:
-                case 0:
-                    print(f"парне число {sm}")
-                case _:
-                    print(f'непарне число {sm}')
+            if a==0:
+                print(f"парне число {sm}")
+            else:
+                print(f'непарне число {sm}')
         elif sm.isalnum():
             if sm.isupper():
                 print(f"велика літера {sm}")
