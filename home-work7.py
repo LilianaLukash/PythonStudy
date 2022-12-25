@@ -12,20 +12,19 @@ while True:
 
             case "add":
                 name = input("Please enter new name")
-                number = input("Please enter phone number")
-                phonebook[name] = number
-                print(phonebook)
+                if name not in phonebook:
+                    number = input("Please enter phone number")
+                    phonebook[name] = number
+                    print(phonebook)
+                else:
+                    print("this name already exist")
 
             case "delete":
                 if com[1] in phonebook:
                     phonebook.pop(com[1])
+                    print(f"deleted {com[1]}")
                 else:
-                    dname = input("Which name you want to delete?")
-                    if dname in phonebook:
-                        phonebook.pop(dname)
-                        print(f"deleted {dname}")
-                    else:
-                        print("sorry, but no such name")
+                    print("sorry, but no such name")
 
             case "list":
                 for key in phonebook.keys():
@@ -35,6 +34,5 @@ while True:
                 if com[1] in phonebook:
                     print(phonebook[com[1]])
                 else:
-                    shname = input("please enter the name ")
-                    print(phonebook[shname])
+                    print("sorry, but no such name")
 
