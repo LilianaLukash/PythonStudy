@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732c00e6-ae82-40e1-b0f2-e15f944bd002" name="Changes" comment="файл 2 перероблено без match case,&#10;вибачаюсь, розуміла, що він там не дуже підходить, але дуже хотілось спробувати його вжити)&#10;В першому завданні використання match case не виправдане в даній ситуації, простіше було б зробити це використовуючи if else">
-      <change afterPath="$PROJECT_DIR$/home-work7.py" afterDir="false" />
+    <list default="true" id="732c00e6-ae82-40e1-b0f2-e15f944bd002" name="Changes" comment="Fibonacci Recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home-work-05" />
+        <entry key="$PROJECT_DIR$" value="home-work-07" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +92,9 @@
       <workItem from="1670445312259" duration="433000" />
       <workItem from="1670450429799" duration="278000" />
       <workItem from="1671479429240" duration="5728000" />
+      <workItem from="1672010597170" duration="581000" />
+      <workItem from="1672165118215" duration="11717000" />
+      <workItem from="1672431571598" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="try1">
       <created>1669930553372</created>
@@ -157,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670965063515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="домашня робота 09, поки що без додаткових завдань.">
+      <created>1672248512757</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672248512757</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fibonacci Recursion">
+      <created>1672252140587</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672252140587</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +190,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="home-work9" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -187,14 +214,19 @@
     <MESSAGE value="домашня робота до 5 заняття, файл 1" />
     <MESSAGE value="домашня робота до 5 заняття, файл 2" />
     <MESSAGE value="файл 2 перероблено без match case,&#10;вибачаюсь, розуміла, що він там не дуже підходить, але дуже хотілось спробувати його вжити)&#10;В першому завданні використання match case не виправдане в даній ситуації, простіше було б зробити це використовуючи if else" />
-    <option name="LAST_COMMIT_MESSAGE" value="файл 2 перероблено без match case,&#10;вибачаюсь, розуміла, що він там не дуже підходить, але дуже хотілось спробувати його вжити)&#10;В першому завданні використання match case не виправдане в даній ситуації, простіше було б зробити це використовуючи if else" />
+    <MESSAGE value="домашня робота 09, поки що без додаткових завдань." />
+    <MESSAGE value="Fibonacci Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci Recursion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonStudy$home_work_03.coverage" NAME="home-work-03 Coverage Results" MODIFIED="1670419219124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work_04.coverage" NAME="home-work-04 Coverage Results" MODIFIED="1670450763579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work5_1.coverage" NAME="home-work5_1 Coverage Results" MODIFIED="1670964765308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$try.coverage" NAME="try Coverage Results" MODIFIED="1669930374706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$regression9.coverage" NAME="regression9 Coverage Results" MODIFIED="1672251804045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$home_work9.coverage" NAME="home-work9 Coverage Results" MODIFIED="1672248219515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work5_2.coverage" NAME="home-work5_2 Coverage Results" MODIFIED="1670878705996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonStudy$home_work7.coverage" NAME="home-work7 Coverage Results" MODIFIED="1671488347322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$factorialR.coverage" NAME="factorialR Coverage Results" MODIFIED="1672589098076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$home_work7.coverage" NAME="home-work7 Coverage Results" MODIFIED="1672011106454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
