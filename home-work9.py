@@ -7,8 +7,12 @@ def f_generator(number):
 
 inp = int(input("Enter integer for Fibonacci Generator "))
 gen1 = f_generator(inp)
-for _ in range(inp):
-    print(next(gen1))
+for x in range(inp):
+    if x == inp-1:
+        print(next(gen1))
+    else:
+        next(gen1)
+
 
 
 
