@@ -14,5 +14,5 @@ for i in range(inpR):
     next= FibRecursion(i+1)
     list.append(next)
 flist = FibRecursion(inpR)
-print(flist)
-print(list)
+print(flist[-1])
+
