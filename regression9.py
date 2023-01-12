@@ -8,11 +8,12 @@ def FibRecursion(rnumb):
     else:
         nfib = FibRecursion(rnumb-1)+FibRecursion(rnumb-2)
         return nfib
+inpR = int(input("Enter integer for Fibonacci Recursion "))
+print(FibRecursion(inpR))
 
-inpR = int(input("Enter integer for Fibonacci Recursion"))
-for i in range(inpR):
-    next= FibRecursion(i+1)
-    list.append(next)
-flist = FibRecursion(inpR)
-print(flist[-1])
+#for i in range(inpR):
+#   next= FibRecursion(i+1)
+#   list.append(next)
+
+
 
