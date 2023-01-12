@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732c00e6-ae82-40e1-b0f2-e15f944bd002" name="Changes" comment="Fibonacci Recursion">
+    <list default="true" id="732c00e6-ae82-40e1-b0f2-e15f944bd002" name="Changes" comment="correct recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,10 @@
       <workItem from="1671479429240" duration="5728000" />
       <workItem from="1672010597170" duration="581000" />
       <workItem from="1672165118215" duration="11717000" />
-      <workItem from="1672431571598" duration="1189000" />
+      <workItem from="1672431571598" duration="5534000" />
+      <workItem from="1672849837509" duration="91000" />
+      <workItem from="1672960821632" duration="5252000" />
+      <workItem from="1673308323123" duration="10485000" />
     </task>
     <task id="LOCAL-00001" summary="try1">
       <created>1669930553372</created>
@@ -173,7 +176,35 @@
       <option name="project" value="LOCAL" />
       <updated>1672252140587</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Factorial Recursion Added">
+      <created>1672589212510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672589212510</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed: now task prints only one number.&#10;&#10;Program counting from zero as was before: 0 = 0, 1 = 1, 2 = 1, 3 = 2, 4 = 3, 5 = 5, 6 = 8, 7 = 13">
+      <created>1673310293406</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673310293407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed: now task prints only one number.&#10;&#10;Program counting from zero as was before: 0 = 0, 1 = 1, 2 = 1, 3 = 2, 4 = 3, 5 = 5, 6 = 8, 7 = 13">
+      <created>1673310639382</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673310639382</updated>
+    </task>
+    <task id="LOCAL-00015" summary="correct recursion">
+      <created>1673482776190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673482776190</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +247,23 @@
     <MESSAGE value="файл 2 перероблено без match case,&#10;вибачаюсь, розуміла, що він там не дуже підходить, але дуже хотілось спробувати його вжити)&#10;В першому завданні використання match case не виправдане в даній ситуації, простіше було б зробити це використовуючи if else" />
     <MESSAGE value="домашня робота 09, поки що без додаткових завдань." />
     <MESSAGE value="Fibonacci Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci Recursion" />
+    <MESSAGE value="Factorial Recursion Added" />
+    <MESSAGE value="Changed: now task prints only one number.&#10;&#10;Program counting from zero as was before: 0 = 0, 1 = 1, 2 = 1, 3 = 2, 4 = 3, 5 = 5, 6 = 8, 7 = 13" />
+    <MESSAGE value="correct recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct recursion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonStudy$home_work_03.coverage" NAME="home-work-03 Coverage Results" MODIFIED="1670419219124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work_04.coverage" NAME="home-work-04 Coverage Results" MODIFIED="1670450763579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work5_1.coverage" NAME="home-work5_1 Coverage Results" MODIFIED="1670964765308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$try.coverage" NAME="try Coverage Results" MODIFIED="1669930374706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonStudy$regression9.coverage" NAME="regression9 Coverage Results" MODIFIED="1672251804045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonStudy$home_work9.coverage" NAME="home-work9 Coverage Results" MODIFIED="1672248219515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$Game.coverage" NAME="Game Coverage Results" MODIFIED="1673389296545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$regression9.coverage" NAME="regression9 Coverage Results" MODIFIED="1673482595833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$home_work9.coverage" NAME="home-work9 Coverage Results" MODIFIED="1673310098922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work5_2.coverage" NAME="home-work5_2 Coverage Results" MODIFIED="1670878705996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$factorialR.coverage" NAME="factorialR Coverage Results" MODIFIED="1672589098076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1673383295594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonStudy$home_work7.coverage" NAME="home-work7 Coverage Results" MODIFIED="1672011106454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonStudy$iteratorF.coverage" NAME="iteratorF Coverage Results" MODIFIED="1673484313907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
