@@ -1,4 +1,4 @@
-def mydecorator(func):
+def log_execution_time_decorator(func):
     import time
 
     def wrapper(*args, **kwargs):
@@ -10,7 +10,7 @@ def mydecorator(func):
         return return_value
     return wrapper
 
-@mydecorator
+@log_execution_time_decorator
 def littlefunction():
     print("Ola amigos!")
 

@@ -4,7 +4,7 @@ phonebook = {"lili":"5555137"}
 commands = ["stats", "add", "delete", "list", "show", "exit"]
 while True:
     com = (input("Please choose your command: stats, add, delete <name>, list, show <name>, exit ")).split()
-    with open("phonebook.txt", "r") as book:
+    with open("phonebook.json", "r") as book:
         data = book.read()
     phonebook = json.loads(data)
 
@@ -24,7 +24,7 @@ while True:
                     print(phonebook)
                     data = json.dumps(phonebook)
                     print(data)
-                    with open("phonebook.txt", "w") as book:
+                    with open("phonebook.json", "w") as book:
                         book.write(data)
                 else:
                     print("this name already exist")
@@ -35,7 +35,7 @@ while True:
                     print(f"deleted {com[1]}")
                     data = json.dumps(phonebook)
                     print(data)
-                    with open("phonebook.txt", "w") as book:
+                    with open("phonebook.json", "w") as book:
                         book.write(data)
                 else:
                     print("sorry, but no such name")
