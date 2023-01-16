@@ -1,3 +1,0 @@
-Exception at 1673823657.7610528
-
-MyCustomException at 1673823867.440136
