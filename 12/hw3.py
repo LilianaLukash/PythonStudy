@@ -5,7 +5,7 @@ class HighlightBlock:
         print("==========")
         if exc_val is not None:
             print(f"Error: {exc_val}")
-        return False
+        return True
 
 with HighlightBlock():
     print("This is the block of code being highlighted")
