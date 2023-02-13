@@ -2,10 +2,6 @@ INSERT INTO mynames
     (first_name, last_name, age)
 VALUES ('Lili','L', 37)
 
-INSERT INTO mynames
-    (id, first_name, last_name)
-VALUES (34, 'Olga', 'Big')
-
 INSERT INTO mynames(
           FIRST_NAME, LAST_NAME, AGE
                 ) VALUES (
@@ -14,12 +10,10 @@ INSERT INTO mynames(
 
 INSERT INTO mynames(
           FIRST_NAME, LAST_NAME, AGE
-                ) VALUES (
-            'rita', 'second', 17
-                         )
+                ) VALUES
+          ('Vika', 'Mil', 67),
+          ('George','Small',35),
+          ('Niki', 'Greate', 42),
+          ('Titi', 'Goat', 10)
 
-INSERT INTO mynames(
-          id, FIRST_NAME, LAST_NAME, AGE
-                ) VALUES (
-            50, 'Veronica', 'Sushko', 35
-                         )
+
