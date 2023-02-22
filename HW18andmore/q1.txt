@@ -1,0 +1,19 @@
+INSERT INTO mynames
+    (first_name, last_name, age)
+VALUES ('Lili','L', 37)
+
+INSERT INTO mynames(
+          FIRST_NAME, LAST_NAME, AGE
+                ) VALUES (
+            'anna', 'gold', 2.4
+                         )
+
+INSERT INTO mynames(
+          FIRST_NAME, LAST_NAME, AGE
+                ) VALUES
+          ('Vika', 'Mil', 67),
+          ('George','Small',35),
+          ('Niki', 'Greate', 42),
+          ('Titi', 'Goat', 10)
+
+
