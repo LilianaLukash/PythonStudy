@@ -1,0 +1,4 @@
+SELECT age, COUNT(age) FROM mynames
+       GROUP BY age
+       HAVING COUNT(age) > 1
+       ORDER BY COUNT(age) desc, age
