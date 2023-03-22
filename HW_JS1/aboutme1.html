@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <title>Liliana</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            let startnum = Math.floor(Math.random() * 30);
+            let friendsnumb = document.getElementsByClassName("num")[0];
+            friendsnumb.innerHTML = String(startnum);
+            let button = document.getElementById("addfr");
+            let eventHandler = (event) => {
+                friendsnumb.innerHTML = String(Number(friendsnumb.innerHTML) + 1);
+                button.innerHTML = 'Waiting for approve';
+                button.disabled = true;
+            };
+            button.addEventListener("click", eventHandler);
+        })
+    </script>
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Liliana Lukash</h1>
+            <p class="lead">Dreamer and Entrepreneur</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" id="addfr" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Add to friends</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Message</button>
+            </div>
+              <div class="overflow-hidden shadow-lg">
+                  <h2 class = "display-5 fw-bold"  align="center">Number of friends</h2>
+                  <h1 class = "num display-5 fw-bold" align="center">55</h1>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"  width = 100%>Propose a Job</button>
+              </div>
+          </div>
+
+              <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class="rounded-lg-3" src="me.jpg" alt="" width="100%">
+              </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Let's earn millions together</h1>
+          <p class="lead my-3">Invest in my startup today and own a Unicorn tomorrow</p>
+          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Find out more...</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="container my-5">
+        <div class="table-responsive">
+        <h1> Only high marks in my studying</h1>
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Home Work</th>
+              <th scope="col">Mark</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Python advanced</td>
+              <td>10</td>
+
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>HTML</td>
+              <td>10</td>
+
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>CSS</td>
+              <td>10</td>
+
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>JS</td>
+              <td>10</td>
+
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Previous projects</strong>
+          <h3 class="mb-0">Created Brand WFJ on Amazon USA</h3>
+          <div class="mb-1 text-muted">2022-2023</div>
+          <p class="card-text mb-auto">New jewelry brand on Amazon marketplace was created by me</p>
+          <a href="https://www.amazon.com/stores/WFJ/page/D0520BB1-EF2C-480A-80C7-D9BB14FAD8FD" class="stretched-link">See the shop</a>
+        </div>
+          <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Founded restaurant Apple House in Lisbon, Portugal</h3>
+          <div class="mb-1 text-muted">2014-2018</div>
+          <p class="card-text mb-auto">Business continues to successfully work and attract customers.</p>
+          <a href="https://www.facebook.com/apple.house.restaurante" class="stretched-link">Link to Facebook</a>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
